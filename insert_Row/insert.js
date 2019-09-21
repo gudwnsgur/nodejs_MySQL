@@ -1,7 +1,7 @@
 // Node.js 에서 테이블에 행(row) 삽입
 
 let mysql = require('mysql');
-let config = require('./config');
+let config = require('../config');
 let connection = mysql.createConnection(config)
 
 let sql =  `INSERT INTO todos(title,completed)

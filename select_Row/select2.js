@@ -1,7 +1,7 @@
 // query에 data 전달 
 
 let mysql = require('mysql');
-let config = require('./config.js');
+let config = require('../config.js');
  
 let connection = mysql.createConnection(config);
  

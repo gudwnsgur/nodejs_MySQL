@@ -1,7 +1,7 @@
 // 명령 행의 인수(argv[])에서 오는 data를 기반으로 Query 
 
 let mysql = require('mysql');
-let config = require('./config.js');
+let config = require('../config.js');
  
 let connection = mysql.createConnection(config);
  

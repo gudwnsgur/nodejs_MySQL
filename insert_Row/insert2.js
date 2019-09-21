@@ -1,7 +1,7 @@
 // 행 삽입 및 삽입된 ID 반환
 
 let mysql = require('mysql');
-let config = require('./config.js');
+let config = require('../config.js');
 let connection = mysql.createConnection(config);
  
 let stmt = `INSERT INTO todos(title,completed)
